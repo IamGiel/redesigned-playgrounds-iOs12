@@ -32,7 +32,7 @@ let selfDrvCar = SelfDrivingCar();
 
 selfDrvCar.destination = "1 Hacker Way";
 
-print(selfDrvCar.destination!);
+print(selfDrvCar.destination);
 print(selfDrvCar.color)
 print(selfDrvCar.typeOfCar)
 print(selfDrvCar.run())
