@@ -9,5 +9,14 @@
 import Foundation
 
 class SelfDrivingCar: Car {
-    
+    var destination: String?;
+    override func run(){
+        super.run()
+        // optional binding
+        // if let statement, executes an optional if its value is not nil
+        if let userDestination = destination {
+           print("its running in towards ", userDestination);
+        }
+        
+    }
 }
