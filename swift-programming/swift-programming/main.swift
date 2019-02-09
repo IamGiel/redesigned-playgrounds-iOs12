@@ -10,12 +10,17 @@ import Foundation
 
 print("Hello, World!")
 
-let myCar = Car(customColor: "Red");
+let myCar = Car();
 
 print(myCar.color)
 print(myCar.typeOfCar)
 
 print("======== custom car =========")
+
+let richCutomer = Car(customColor: "Red")
+
+print(richCutomer.color)
+print(richCutomer.typeOfCar)
 
 
 

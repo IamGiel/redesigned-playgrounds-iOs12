@@ -20,7 +20,16 @@ class Car {
     var engine: String = "turbo";
     var typeOfCar: carType = .sedan;
     
-    init(customColor: String){
+    // init(customColor: String){
+    //    color = customColor;
+    // }
+    
+    init(){
+        
+    }
+    
+    convenience init(customColor: String) {
+        self.init()
         color = customColor;
     }
 }
