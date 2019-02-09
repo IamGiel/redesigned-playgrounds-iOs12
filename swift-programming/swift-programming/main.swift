@@ -26,6 +26,14 @@ print(richCutomer.color)
 print(richCutomer.typeOfCar)
 print(richCutomer.run())
 
+print("======== self driving car =========")
+
+let selfDrvCar = SelfDrivingCar();
+
+print(selfDrvCar.color)
+print(selfDrvCar.typeOfCar)
+print(selfDrvCar.run())
+
 
 
 
