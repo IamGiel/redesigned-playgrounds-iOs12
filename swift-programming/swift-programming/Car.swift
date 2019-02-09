@@ -17,8 +17,9 @@ enum carType {
 class Car {
     var color: String = "black";
     var door: Int = 2;
-    var engine: String = "turbo";
+    var engine: String = "V6";
     var typeOfCar: carType = .sedan;
+    var speed: Int = 65;
     
     // init(customColor: String){
     //    color = customColor;
@@ -31,5 +32,10 @@ class Car {
     convenience init(customColor: String) {
         self.init()
         color = customColor;
+        speed = 80;
+    }
+    
+    func run(){
+        print("car running \(speed)mph...");
     }
 }
