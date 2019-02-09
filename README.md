@@ -1,2 +1,5 @@
 # redesigned-playgrounds-iOs12
-swift programming
+
+Swift Programming
+
+Objects, Classes, Enums, Initializers, Inheritance
